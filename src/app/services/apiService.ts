@@ -1,5 +1,4 @@
-const BACKEND_URL = "http://localhost:8000";
-
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
 export interface BoundingBox {
   x1: number; y1: number;
   x2: number; y2: number;
