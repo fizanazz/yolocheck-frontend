@@ -1,4 +1,4 @@
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://yolocheck-backend-production.up.railway.app";
+const BACKEND_URL = "https://yolocheck-backend-production.up.railway.app";
 export interface BoundingBox {
   x1: number; y1: number;
   x2: number; y2: number;
